@@ -69,6 +69,13 @@ li a{
     background: none;
 }
 
+.btn, .btn-secondary{
+    transition: all 0.3s ease;
+}
+.btn:hover, .btn-secondary:hover{
+    transform: translateY(-4px) scale(1.04);
+}
+
 .text-gradient{
    background: var(--bg-primary-gradient) !important;
   -webkit-background-clip: text !important;
@@ -88,6 +95,9 @@ nav .brand{
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--text-primary-color);
+}
+.menu li a:hover{
+    color: var(--accent-color);
 }
 nav .hamburger-menu{
     display: none;
@@ -128,7 +138,21 @@ nav .hamburger-menu{
     position: absolute;
     top: 10px;
     right: 35px; 
-    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);    
+    animation: scale 2s ease-in-out infinite;
+}
+
+/* badge animation */
+@keyframes scale {
+  0% { 
+    transform: scale(1); 
+    }
+  50% { 
+    transform: scale(1.12); 
+    }
+  100% { 
+    transform: scale(1); 
+    }
 }
 #hero .hero-container .logo-container .microphone{
     position: absolute;
@@ -140,6 +164,26 @@ nav .hamburger-menu{
 #hero .logo-container .logo-container  img{
     width: 100%;
 }
+
+
+/* micrphone animation*/
+.microphone img{
+    animation: up-down 3s ease-in-out infinite;
+}
+ 
+@keyframes up-down {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+}
+ 
 #hero .hero-container .hero-content h1{
     font-size: 6rem;
     font-weight: 800;
