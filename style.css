@@ -273,7 +273,6 @@ nav .hamburger-menu{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* place-items: center; */
     gap: 3rem;
 }
 .big-layout{
@@ -367,6 +366,26 @@ nav .hamburger-menu{
     align-items: center;
     gap: 24px;
 }
+
+/* host-image animation */
+.host-card-container .host-img img{
+  animation: host-focus 2s ease-in-out infinite;
+}
+@keyframes host-focus {
+    0%  { 
+        transform: scale(1); 
+    }
+    50%  { 
+        box-shadow: 0px 10px 50px var(--accent-color);
+        border-radius: 1000px;
+        transform: scale(1.04); 
+    }
+    100% { 
+        transform: scale(1); 
+    }
+}
+
+
 .host-card-container .host-content {
     display: flex;
     flex-direction: column;
@@ -435,3 +454,4 @@ nav .hamburger-menu{
     color: #a5a1b5;
     font-size: 1.6rem;
 }
+
