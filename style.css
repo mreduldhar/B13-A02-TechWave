@@ -258,7 +258,7 @@ nav .hamburger-menu{
 }
 
 /* Why Choose Section */
-#choose-techwave, #features{
+#choose-techwave, #features, #footer{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -401,4 +401,37 @@ nav .hamburger-menu{
 .host-card-container .host-content .host-social .social-link img {
     width: 20px;
     height: 20px;
+}
+
+/* Footer Section */
+#footer{
+    background-image: url(./assets/footer-bg.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+}
+#footer .footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+#footer .footer-container .footer-links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+}
+#footer .footer-container .footer-links-container .footer-links a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #a5a1b5;
+}
+
+.footer-container p{
+    color: #a5a1b5;
+    font-size: 1.6rem;
 }

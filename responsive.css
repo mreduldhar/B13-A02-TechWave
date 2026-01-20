@@ -50,7 +50,7 @@
     }
 
     /* About section */
-    #about, #choose-techwave, #features, #host{
+    #about, #choose-techwave, #features, #host, #footer{
         padding: 40px 20px;
     }
     #about .about-container .about-header .about-desc{
@@ -107,6 +107,25 @@
     .host-card-container .host-content .host-social{
         justify-content: center;
         gap: 8px;
+    }
+
+    
+    /* Footer Section */
+    #footer{
+        background-image: url(./assets/footer-bg.png); 
+        background-repeat: no-repeat;
+        background-size: 150% 150%;
+        background-position: center;
+    }
+    #footer .footer-container{
+        gap: 2.4rem;
+    }
+    .footer-container .footer-brand img{
+        width: 50%;
+    }
+    #footer .footer-container .footer-links-container{
+        flex-wrap: wrap ;
+        gap: 1.6rem;
     }
 
     
