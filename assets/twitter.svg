@@ -1,0 +1,26 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.000000" height="16.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_outline">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+		<linearGradient id="paint_linear_1" x1="2.37489104" x2="12.3499155" y1="12.5807199" y2="2.69109726" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(247,233,63)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(251,9,180)" offset="0.511200011" stop-opacity="1" />
+			<stop stop-color="rgb(145,0,248)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<mask id="mask_0" width="16.000000" height="16.000000" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_outline)">
+			<g id="SVGG1Ot4cAD">
+				<path id="Vector" d="M0 0L16 0L16 16L0 16L0 0Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+			</g>
+		</g>
+	</mask>
+	<g id="Group">
+		<g id="Clip path group" mask="url(#mask_0)">
+			<g id="Group">
+				<path id="Vector" d="M12.6 0.749756L15.0537 0.749756L9.69372 6.89147L16 15.2503L11.0629 15.2503L7.19314 10.1818L2.77029 15.2503L0.314286 15.2503L6.04686 8.6789L0 0.750899L5.06286 0.750899L8.55543 5.3829L12.6 0.749756ZM11.7371 13.7783L13.0971 13.7783L4.32 2.14518L2.86171 2.14518L11.7371 13.7783Z" fill="url(#paint_linear_1)" fill-rule="nonzero" />
+			</g>
+		</g>
+	</g>
+</svg>

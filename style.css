@@ -350,7 +350,55 @@ nav .hamburger-menu{
    color: var(--accent-color);
 }
 
+/* Host Section */
+#host{
+   padding-bottom: 120px ;
+}
 
+#host .host-container{
+    margin-top: 4rem;
+    background-color: #250e44 ;
+    padding: 4rem;
+    border-radius: 4rem;
+}
+.host-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.host-card-container .host-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
+.host-card-container .host-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.host-card-container .host-content p{
+    font-size: 1.6rem;
+    color: var(--text-secondary-color);
+    line-height: 24px;
+    opacity: 0.8;
+}
+.host-card-container .host-content .host-social{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
-
+.host-card-container .host-content .host-social .social-link{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #533C72;
+    border-radius: 1000px;
+}
+.host-card-container .host-content .host-social .social-link img {
+    width: 20px;
+    height: 20px;
+}
