@@ -10,6 +10,7 @@
 
 :root{
     --bg-primary-color: #1A0B2E;
+    --bg-secondary-color: #2a0f4d;
     --text-primary-color: #ffffff;
     --text-secondary-color: #d1cfd8;
     --accent-color: #00ff88;
@@ -254,3 +255,53 @@ nav .hamburger-menu{
     line-height: 20px;
     color: var(--text-secondary-color)
 }
+
+/* Why Choose Section */
+#choose-techwave{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.techwave-contianer{
+    text-align: center;
+}
+
+.card-contianer{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.big-layout{
+    grid-column: span 1;
+    grid-row: span 2;
+    max-height: 480px;
+}
+.wide-layout{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.normal-layout{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.card-item{
+    background-color: var(--bg-secondary-color);
+    padding: 40px;
+    text-align: left;
+    border-radius: 40px; 
+    display: flex;
+    align-items: center;
+}
+
+.card-item .card h2{
+    margin: 16px auto;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.card-item .card p{
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: var(--text-secondary-color);
+}
+
+

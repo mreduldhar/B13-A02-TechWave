@@ -17,6 +17,7 @@
     /* common styles */
     .section-heading h2{
         font-size: 3.2rem;
+        margin-bottom: 16px;
     }
 
     /* hero section */
@@ -49,7 +50,7 @@
     }
 
     /* About section */
-    #about{
+    #about, #choose-techwave{
         padding: 40px 20px;
     }
     #about .about-container .about-header .about-desc{
@@ -67,6 +68,22 @@
 
     .about-status .status-item h1{
         font-size: 4rem;
+    }
+
+    /* Why Choose Section  */
+    
+    .card-contianer{
+        margin-top: 2.4rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.6rem;
+    }
+
+    .big-layout, 
+    .wide-layout, 
+    .normal-layout {
+        grid-column: span 1;
+        grid-row: span 1;
     }
 
     
