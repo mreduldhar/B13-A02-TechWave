@@ -75,7 +75,15 @@ li a{
 .btn:hover, .btn-secondary:hover{
     transform: translateY(-4px) scale(1.04);
 }
-
+.section-heading h2{
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.section-heading p{
+    font-size: 1.6rem;
+    color: var(--text-secondary-color);
+    opacity: 0.8;
+}
 .text-gradient{
    background: var(--bg-primary-gradient) !important;
   -webkit-background-clip: text !important;
@@ -210,3 +218,39 @@ nav .hamburger-menu{
 }
 
 /* Main Styles */
+
+/* About Section */
+#about{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#about .about-container{
+    text-align: center;
+}
+#about .about-container .about-header .about-desc{
+    max-width: 700px;   
+    margin: 16px auto 30px;
+    line-height: 28px;
+}
+
+.divider{
+    margin: 80px 0;
+    border: 1px solid #ffffff;
+    opacity: 0.1; 
+}
+
+#about .about-container .about-status{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.about-status .status-item h1{
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: var(--accent-color);
+}
+.about-status .status-item p{
+    font-size: 1.6rem;
+    line-height: 20px;
+    color: var(--text-secondary-color)
+}

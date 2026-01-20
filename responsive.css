@@ -14,6 +14,11 @@
     display: inline-block;
     }
 
+    /* common styles */
+    .section-heading h2{
+        font-size: 3.2rem;
+    }
+
     /* hero section */
     #hero {
         background-image: url(./assets/hero-bg.png);
@@ -43,7 +48,27 @@
         font-size: 4rem;
     }
 
+    /* About section */
+    #about{
+        padding: 40px 20px;
+    }
+    #about .about-container .about-header .about-desc{
+        line-height: 20px;
+    }
+    .divider{
+        margin: 40px 0; 
+    }
     
+    #about .about-container .about-status{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
 
+    .about-status .status-item h1{
+        font-size: 4rem;
+    }
+
+    
 
 }
