@@ -79,6 +79,7 @@ li a{
 .section-heading h2{
     font-size: 4.8rem;
     font-weight: 700;
+    text-align: center;
 }
 .section-heading p{
     font-size: 1.6rem;
@@ -257,9 +258,12 @@ nav .hamburger-menu{
 }
 
 /* Why Choose Section */
-#choose-techwave{
+#choose-techwave, #features{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+#choose-techwave{
+    background-color: #230E3D;
 }
 .techwave-contianer{
     text-align: center;
@@ -269,6 +273,7 @@ nav .hamburger-menu{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* place-items: center; */
     gap: 3rem;
 }
 .big-layout{
@@ -303,5 +308,49 @@ nav .hamburger-menu{
     line-height: 24px;
     color: var(--text-secondary-color);
 }
+
+/* Features Section */
+.feature-card-container {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.feature-card-container .feat-item  {
+    max-width: 380px;
+    height: 100%;
+    background-color: #250d44;
+    border-radius: 24px;
+}
+.feature-card-container .feat-item .video-container {
+    overflow: hidden; 
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.feature-card-container .feat-item .feat-content{
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.feat-item .feat-content h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+.feat-item .feat-content p{
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+.feat-item .feat-content .time-container{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   color: var(--accent-color);
+}
+
+
+
 
 

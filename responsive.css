@@ -50,7 +50,7 @@
     }
 
     /* About section */
-    #about, #choose-techwave{
+    #about, #choose-techwave, #features{
         padding: 40px 20px;
     }
     #about .about-container .about-header .about-desc{
@@ -70,8 +70,7 @@
         font-size: 4rem;
     }
 
-    /* Why Choose Section  */
-    
+    /* Why Choose Section  */    
     .card-contianer{
         margin-top: 2.4rem;
         display: grid;
@@ -84,6 +83,14 @@
     .normal-layout {
         grid-column: span 1;
         grid-row: span 1;
+    }
+
+    /* Features Section */
+    .feature-card-container {
+        margin-top: 2.4rem;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.6rem;
+        place-items: center;
     }
 
     
